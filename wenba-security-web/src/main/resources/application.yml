@@ -1,0 +1,9 @@
+wenba:
+  security:
+    browser:
+      loginResponseType: JSON
+      loginPage: /imooc-signIn.html
+
+server:
+  port: 9000
+

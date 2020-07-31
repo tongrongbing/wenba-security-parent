@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "wenba.security",
+      "type": "com.wenba.security.properties.SecurityProperties",
+      "sourceType": "com.wenba.security.properties.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "wenba.security.browser",
+      "type": "com.wenba.security.properties.BrowserProperties",
+      "sourceType": "com.wenba.security.properties.SecurityProperties"
+    }
+  ],
+  "hints": []
+}
