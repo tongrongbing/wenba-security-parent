@@ -16,6 +16,10 @@ public class BootstrapApplication {
         SpringApplication.run(BootstrapApplication.class,args);
     }
 
+    public String get(){
+        System.out.println("s ");
+        return "";
+    }
 
 
 }
