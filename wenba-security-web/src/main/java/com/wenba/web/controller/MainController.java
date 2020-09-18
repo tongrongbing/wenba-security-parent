@@ -23,4 +23,11 @@ public class MainController {
         log.info("StringUtil.get()=============="+StringUtil.get());
         return "index";
     }
+
+    @GetMapping({"/index","/"})
+    @ApiOperation(value = "demoTest",notes = "demo测试接口")
+    public String index2(){
+        log.info("StringUtil.get()=============="+StringUtil.get());
+        return "index";
+    }
 }
